@@ -1,0 +1,11 @@
+#weather {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+#weather span {
+  margin-left: 10px;
+}

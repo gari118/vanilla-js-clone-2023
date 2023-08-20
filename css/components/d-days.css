@@ -1,0 +1,80 @@
+.d-day-box {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 3px;
+}
+
+#d-day-form {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border-radius: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 0px 10px 10px;
+  flex-direction: column;
+  box-sizing: content-box;
+}
+
+.d-day-form__colum:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.d-day-form__colum:nth-child(2) {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#d-day-form input {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 0px;
+}
+
+#d-day-form input:first-child {
+  width: 80%;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#d-day-form input:nth-child(2) {
+  height: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 5px;
+}
+
+#d-day-form button {
+  background-color: black;
+  color: white;
+  width: 80px;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  border-style: none;
+}
+
+#d-day-form input::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}

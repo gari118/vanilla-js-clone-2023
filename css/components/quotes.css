@@ -1,0 +1,23 @@
+#quote {
+  margin: 1% 0%;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.main-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quote span:first-child {
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+
+#quote span:last-child {
+  font-size: 24px;
+}
