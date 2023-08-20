@@ -18,12 +18,10 @@ const updateBatteryStatus = () => {
                 "fa-battery-empty",
                 "fa-battery-half"
             );
-            console.log(batteryStatusIcon);
         } else if (
             Number(battery.level * 100) > 50 &&
             Number(battery.level * 100) <= 100
         ) {
-            console.log(batteryStatusIcon);
             batteryStatusIcon.classList.add("fa-battery-three-quarters");
             batteryStatusIcon.classList.remove(
                 "fa-battery-full",
@@ -65,7 +63,6 @@ const updateBatteryStatus = () => {
         battery.addEventListener("chargingchange", function() {
             batteryIsCharging = battery.charging;
         });
-        console.log(batteryIsCharging);
         batteryIsCharging === true
             ? (batteryStatusIcon.style.color = "#00FF2B")
             : (batteryStatusIcon.style.color = "white");
